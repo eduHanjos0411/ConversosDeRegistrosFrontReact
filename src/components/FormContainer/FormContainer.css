@@ -1,0 +1,63 @@
+
+.container {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 80%;
+    height: 9rem;
+    margin-left: 10%;
+    text-align: center;
+    font-family: "Roboto";
+    border-radius: 8px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+input {
+    margin-right: 30px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 15rem;
+}
+
+input[type="date"] {
+    padding-left: 10px;
+}
+
+input[type="text"] {
+    padding-left: 10px;
+}
+
+input[type="number"] {
+    padding-left: 10px;
+}
+
+select {
+    margin-right: 30px;
+    background-color: #2B2B2B;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 15rem;
+}
+
+button {
+    width: 140px;
+    border: none;
+    background-color: #00EA3E;
+    border-radius: 9px;
+    height: 40px;
+    font-size: medium;
+    margin: auto;
+    margin-top: 15px;
+    bottom: 15px;
+    font-weight: 600;
+}
