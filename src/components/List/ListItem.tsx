@@ -15,7 +15,11 @@ export default function ListItem({dDC, info, vDC, lDC, comp} : ItemProps) {
             <td> {info} </td>
             <td> {vDC} </td>
             <td> {lDC} </td>
-            <td> {comp} </td>
+            <td> {comp && <p>Contém comprovante</p> || !comp &&<p>Não contém comprovante</p>} </td>
+            <td className="acoes">
+                <button className="editar">Editar</button>
+                <button className="excluir">Excluir</button>
+            </td>
         </tr>
     )
 }
