@@ -27,7 +27,7 @@ tr:hover {
 }
 
 .editar {
-  background-color: #4CAF50;
+  background-color: #18b41d;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -42,7 +42,7 @@ tr:hover {
 }
 
 .excluir {
-  background-color: #FF4C4C;
+  background-color: #ff0000;
   border: none;
   color: white;
   padding: 5px 10px;
